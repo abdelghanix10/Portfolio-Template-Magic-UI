@@ -2,28 +2,35 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  name: "Abde",
+  initials: "AG",
+  url: "https://abdelghani.dev",
+  location: "Agadir, Morocco",
+  locationLink: "https://www.google.com/maps/place/agadir",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Full-Stack Developer | Building scalable & user-friendly apps 🚀 | Passionate about delivering impactful digital products 💻✨",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-  avatarUrl: "/me.png",
+    "I'm a passionate Full-Stack Developer based in Agadir, Morocco, specializing in building scalable and user-friendly web applications. I work with modern technologies like [React](https://react.dev), [Next.js](https://nextjs.org), [Vue.js](https://vuejs.org), and [Laravel](https://laravel.com) to deliver impactful digital products. I'm currently focused on expanding my expertise in [TypeScript](https://www.typescriptlang.org/) and [Nuxt.js](https://nuxt.com) while continuously learning and collaborating with creative minds and talented developers.",
+  avatarUrl: "/me.jpg",
   skills: [
     "React",
     "Next.js",
-    "Typescript",
-    "Node.js",
+    "Vue.js",
+    "Nuxt.js",
+    "TypeScript",
+    "JavaScript",
+    "Laravel",
+    "PHP",
     "Python",
-    "Go",
-    "Postgres",
-    "Docker",
-    "Kubernetes",
-    "Java",
-    "C++",
+    ".NET",
+    "PostgreSQL",
+    "MySQL",
+    "TailwindCSS",
+    "Bootstrap",
+    "HTML",
+    "CSS",
+    "Git",
+    "Linux",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -35,34 +42,34 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/abdelghanix10",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/abdelghanix10/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://twitter.com/abdelghanix10",
         icon: Icons.x,
 
         navbar: true,
       },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
+      Instagram: {
+        name: "Instagram",
+        url: "https://www.instagram.com/abdelghanix10/",
+        icon: Icons.instagram,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:contact@abdelghani.dev",
         icon: Icons.email,
 
         navbar: false,
